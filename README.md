@@ -5,9 +5,9 @@ This projet generates a C# dynamic library.
 The ConsoleStream class contains methods to test the output text in a C# console project.
 
 How to use it:
-1) Generate the library.
-2) Create a C# console project.
-3) Display a message on the console.
+1) Generate the library.  
+2) Create a C# console project.  
+3) Display a message on the console.  
 Example:
 ```c#
 static void Main(string[] args)
@@ -32,9 +32,9 @@ static void Main(string[] args)
 
         }
 ```
-4) Create an unit test project.
-5) Add the consoleTest DLL to the test project.
-6) Create the unit test method. 
+4) Create an unit test project.  
+5) Add the consoleTest DLL to the test project.  
+6) Create the unit test method.   
 
 Example : 
 ```c#
@@ -61,7 +61,7 @@ Example :
         
  ```       
 
-The main isssue is the use of Console.Write that doesn't generate an end of line. 
+The main isssue is the use of Console.Write that doesn't generate an end of line.   
 We need to find the string with the Contains method.
 
 
