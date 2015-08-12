@@ -4,7 +4,7 @@ Tests the console ouptut in a C# console project
 This projet generates a C# dynamic library. 
 The ConsoleStream class contains methods to test the output text in a C# console project.
 
-How to use it:
+How to use it:  
 1) Generate the library.  
 2) Create a C# console project.  
 3) Display a message on the console.  
