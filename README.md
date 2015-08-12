@@ -1,7 +1,7 @@
 # ConsoleTest
 Tests the console ouptut in a C# console project 
 
-This projets generates a C# dynamic library. 
+This projet generates a C# dynamic library. 
 The ConsoleStream class contains methods to test the output text in a C# console project.
 
 How to use it:
@@ -9,6 +9,7 @@ How to use it:
 2) Create a C# console project.
 3) Display a message on the console.
 Example:
+```c#
 static void Main(string[] args)
         {
          
@@ -30,12 +31,13 @@ static void Main(string[] args)
            
 
         }
-
+```
 4) Create an unit test project.
 5) Add the consoleTest DLL to the test project.
-6)Create the unit test method. 
+6) Create the unit test method. 
 
 Example : 
+```c#
  [TestMethod]
         public void TestExercice11_FirstName()
         {
@@ -57,7 +59,7 @@ Example :
            
         }
         
-        
+ ```       
 
 The main isssue is the use of Console.Write that doesn't generate an end of line. 
 We need to find the string with the Contains method.
